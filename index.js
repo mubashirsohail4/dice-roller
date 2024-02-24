@@ -1,3 +1,7 @@
+window.addEventListener("load", function () {
+  this.document.querySelector(".footer-date").innerHTML = " " + new Date().getFullYear();
+});
+
 const diceSrc = "./images/dice";
 const diceSound = new Audio("audios/dice1.mp3");
 
