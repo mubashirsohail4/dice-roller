@@ -1,19 +1,35 @@
 body {
   background-color: #fff6c2;
   background-size: cover;
-  font-family: "Luckiest Guy", cursive;
+  font-family: "Madimi One", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
   color: #960000;
   text-shadow: 2px 2px #ffffff;
 }
 
 h1 {
   margin: 30px;
-  font-size: calc(2rem + 3.3vw);
+  font-size: calc(1.9rem + 3.3vw);
   text-shadow: 5px 5px #ffffff;
 }
 
 h2 {
   font-size: calc(1rem + 1vw);
+}
+
+button {
+  font-family: inherit;
+  font-weight: bold;
+}
+
+.roll-text {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.select-text {
+  margin: 0;
 }
 
 .dice-container {
@@ -45,11 +61,6 @@ h2 {
   display: none;
 }
 
-.roll-text {
-  font-size: 2rem;
-  margin: 0;
-}
-
 .select-container {
   display: flex;
   justify-content: center;
@@ -58,10 +69,6 @@ h2 {
 
 .select-img {
   width: 50px;
-}
-
-.select-text {
-  margin: 0;
 }
 
 .btn-container {
@@ -73,10 +80,7 @@ h2 {
 .btn2 {
   display: flex;
   flex-direction: column;
-  font-family: "Luckiest Guy", cursive;
-  text-transform: unset !important;
   padding: 10px 40px;
-  font-size: 18px;
   background-color: #333;
   color: #fff;
   text-shadow: 0 2px 0 rgb(0 0 0 / 25%);
@@ -91,7 +95,6 @@ h2 {
   letter-spacing: 1px;
   white-space: unset;
   padding: 0.8rem 1.5rem;
-  text-decoration: none;
   transition: all 0.7s cubic-bezier(0, 0.8, 0.26, 0.99);
 }
 
@@ -146,7 +149,7 @@ footer {
   text-align: center;
 }
 
-@media (min-width: 768px){
+@media (min-width: 768px) {
   .container {
     width: 50%;
   }
