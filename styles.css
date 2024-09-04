@@ -149,6 +149,11 @@ footer {
   text-align: center;
 }
 
+.footer-link {
+  text-decoration: none !important;;
+  color: inherit;
+}
+
 @media (min-width: 768px) {
   .container {
     width: 50%;
